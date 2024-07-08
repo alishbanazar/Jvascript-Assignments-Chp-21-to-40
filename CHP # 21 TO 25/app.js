@@ -156,4 +156,4 @@
 // var length=count.length;
 // document.write('Text:'+str+'<br>'+'There are '+length+' occurence(s) of word "the"');
 
-// ---------------------------End of Chap 21-25
+// ---------------------------End of Chap 21-25 ---------------
