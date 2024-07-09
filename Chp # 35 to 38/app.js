@@ -96,3 +96,30 @@
 //Task 7
 //Write a function that take start and end number as inputs& display counting in your browser.
 
+// function counting(start,end){
+//         for(var i = start; i <= end; i++ ){
+//             document.write(i + '<br>');
+//         }
+//     }
+//     var start = +prompt("Enter start number for counting:");
+//     var end = +prompt("Enter end number for counting:");
+//     counting(start,end);
+
+//Task 8
+//Write a nested function that computes hypotenuse of aright angle triangle.Hypotenuse2 = Base2 + Perpendicular2
+//Take base and perpendicular as inputs.Outer function : calculateHypotenuse()Inner function: calculateSquare()
+
+
+function calculateHypotenuse(){
+    function calculateSquare (x){
+        return x * x
+
+    }
+
+var base = +prompt ("Enter the base of a right angle triangle ");
+var perpendicular = +prompt ("Enter the baseperpendicular of a right angle triangle ");  
+var hypotenuse = Math.sqrt(calculateSquare(base) + calculateHypotenuse (perpendicular));
+alert("The hypoteneuse of a right angle triangle base " + base  + " and  perpendicular " + perpendicular + " is " + hypotenuse);
+
+}
+calculateHypotenuse();
