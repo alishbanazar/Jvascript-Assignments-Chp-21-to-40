@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("images - Copy/p3.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: cover; */
+    background-color: pink;
+    
+
+}
+#counter {
+    font-size: 2em;
+    margin-bottom: 20px;
+    flex-direction: column;
+    
+}
+button {
+    padding:5px 30px;
+    font-size: 1em;
+    margin: 3px;
+    cursor: pointer;
+    color: black;
+}
+.btn{
+    background-color: red;
+    color: white;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+.btn1{
+    background-color:green;
+    color: white;
+    border: 5px solid white;
+    border-radius: 10px;
+}
